@@ -1,0 +1,80 @@
+.pageTitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pageNavTitle > h1 {
+  color: #333;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.pageSearch {
+  position: relative;
+  display: flex;
+  border-radius: 8px;
+  box-shadow: 0px 5px 8px 0px rgba(0, 0, 0, 0.25);
+  width: 370px;
+  padding: 3px;
+}
+
+.pageSearchBg {
+  display: inline-flex;
+  height: 40px;
+  padding: 6px 5px 6px 7px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--2-d-9-efb, #2d9efb);
+}
+
+.pageSearch > input {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.eachNavigation {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.eachNavigation > p {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.pageNavigation {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.pageNavTitle {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  cursor: pointer;
+}
+
+.backBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 1240px) {
+  .pageTitle {
+    padding: 0 20px;
+  }
+}

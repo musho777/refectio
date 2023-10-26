@@ -1,0 +1,71 @@
+.myProfileBlock {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.profileMiddleBlocks {
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.profileMiddleBlocksw {
+  flex-direction: column;
+  display: flex;
+  gap: 25px;
+}
+
+.eachItem {
+  width: 48%;
+}
+
+.buttonWrapper {
+  /* height: 20px; */
+}
+
+
+.profileNameBlock {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+}
+
+.profileNameBlock>img {
+  width: 130px;
+  height: 130px;
+  border-radius: 10px;
+}
+
+.profileEditButton {
+  padding: 7px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: var(--2-d-9-efb, #2d9efb);
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  position: relative;
+}
+
+.aboutBlock {
+  padding: 15px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #bebebe;
+  background: #fff;
+  max-height: 110px;
+  overflow-y: auto;
+}
+
+.clear-selected-button {
+  display: none !important;
+}

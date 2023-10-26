@@ -1,0 +1,53 @@
+.phoneCodeRegister {
+  color: #333;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.rmsc .dropdown-container {
+  border-radius: 8px !important;
+  border: 1px solid #bebebe !important;
+  outline: none !important;
+  padding: 5px !important;
+}
+
+.checkboxLine {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.registerCheckbox {
+  max-width: 28px;
+  width: 100%;
+  height: 28px;
+  border: 1px solid #2d9efb;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkboxLine > p {
+  color: #333;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.checkboxLine > p > span {
+  color: #333;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.errorMessage {
+  color: rgb(255, 0, 0);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+}

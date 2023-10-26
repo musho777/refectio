@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: "Raleway", "Regular";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+  font-family: "Regular";
+  src: url("./open-sans.regular.ttf");
+}
+
+code {
+  font-family: "Raleway";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Regular";
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #7575758a;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input {
+  font-family: "Regular";
+}
+
+textarea {
+  font-family: "Regular";
+}
+
+ol {
+  list-style-position: inside;
+}
+
+.RichEditor-editor .public-DraftEditor-content {
+  max-height: 150px !important;
+  overflow-y: auto !important;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh - 348px);
+}

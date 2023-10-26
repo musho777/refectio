@@ -1,0 +1,153 @@
+.mainLayout {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.topLayout {
+  height: 157px;
+  background: linear-gradient(270deg, #2fc8ee 0%, #fff 30%);
+  display: flex;
+}
+
+.topLayoutBlock {
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  gap: 40px;
+  width: 100%;
+}
+
+.topLayoutBlock > img {
+  width: 160px;
+  height: 140px;
+  cursor: pointer;
+}
+
+.topLayoutBlock > p {
+  color: #a3a3a3;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.topLayoutBlockBottom {
+  width: 100%;
+  height: 1px;
+  background: #3da5da;
+}
+
+.middleLayoutBlock {
+  max-width: 1170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  gap: 40px;
+  padding: 10px 0;
+}
+
+.middleLayoutBlock > p {
+  color: #333;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.middleLayoutBlock > span {
+  color: var(--2-d-9-efb, #2d9efb);
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.layoutSeparator {
+  width: 100%;
+  height: 1px;
+  background: rgba(51, 51, 51, 0.4);
+}
+
+.bottomLayout {
+  height: 134px;
+  background: linear-gradient(-270deg, #2fc8ee 0%, #fff 30%);
+  display: flex;
+}
+
+.bottomLayoutBlock {
+  max-width: 1170px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  gap: 40px;
+}
+
+.socialMedias {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.socialMedias > div {
+  cursor: pointer;
+}
+
+.bottomLayoutBlock > span {
+  color: #333;
+  text-align: right;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-size: 18.5px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.layoutUser {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.layoutUser > h2 {
+  color: #333;
+  text-align: right;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.layoutUser > img {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 1240px) {
+  .topLayoutBlock {
+    padding: 0 20px;
+  }
+  .topLayoutBlock > img {
+    width: 130px;
+    height: 110px;
+  }
+  .topLayoutBlock > p {
+    font-size: 18px;
+  }
+  .middleLayoutBlock {
+    padding: 10px 20px;
+  }
+  .bottomLayoutBlock {
+    padding: 0 20px;
+  }
+}

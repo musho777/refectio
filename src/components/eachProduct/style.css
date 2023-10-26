@@ -1,0 +1,75 @@
+.eachManuProds {
+  display: flex;
+  gap: 37px;
+  overflow-x: auto;
+  padding-bottom: 20px;
+}
+
+.eachManuProduct {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 48%;
+}
+
+.eachManuProduct>img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.eachManuProdDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.eachManuProdDetails>p {
+  color: #333;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  word-break: break-all;
+  font-family: "Regular";
+}
+
+.eachManuProdDetails>span {
+  color: #333;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 525px;
+  font-family: "Regular";
+}
+
+.moreInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  /* min-height: 140px; */
+}
+
+.moreInfo>button {
+  padding: 5px;
+  height: fit-content;
+  border-radius: 5px;
+  border: 1px solid #888;
+  color: #888;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.manuTopFilter {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}

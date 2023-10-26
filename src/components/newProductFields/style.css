@@ -1,0 +1,66 @@
+.addProductEachBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  width: 48%;
+}
+
+.eachProfileField {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.myProfileBlocks {
+  width: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.eachProfileField>input {
+  padding: 15px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #bebebe;
+  background: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.eachProfileField>select {
+  padding: 15px;
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #bebebe;
+  background: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.eachProfileField>textarea {
+  height: 117px;
+  padding: 15px;
+  outline: none;
+  border-radius: 8px;
+  resize: none;
+  border: 1px solid #bebebe;
+  background: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.profileFieldName {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profileFieldName>span {
+  color: #333;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}

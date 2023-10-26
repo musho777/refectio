@@ -1,0 +1,58 @@
+{
+  "name": "refectio_web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.7",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "class-autobind": "^0.1.4",
+    "classnames": "^2.3.2",
+    "draft-js": "^0.11.7",
+    "draft-js-export-html": "^1.4.1",
+    "draft-js-export-markdown": "^1.4.0",
+    "draft-js-import-element": "^1.4.0",
+    "draft-js-import-html": "^1.4.1",
+    "draft-js-import-markdown": "^1.4.1",
+    "draft-js-utils": "^1.4.1",
+    "draftjs-to-html": "^0.9.1",
+    "es6-shim": "^0.35.8",
+    "immutable": "^5.0.0-beta.4",
+    "infinite-react-carousel": "^1.2.11",
+    "material-auto-rotating-carousel": "^3.0.2",
+    "react": "^18.2.0",
+    "react-awesome-slider": "^4.1.0",
+    "react-dom": "^18.2.0",
+    "react-input-mask": "^2.0.4",
+    "react-multi-select-component": "^4.3.4",
+    "react-redux": "^8.1.2",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "react-spinners": "^0.13.8",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
