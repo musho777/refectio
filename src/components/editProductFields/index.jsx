@@ -203,7 +203,7 @@ export const EditProductFields = ({ details, setDetails, errors, setErrors, cate
                     <div className='profileFieldName'>
                         <span>Доп. информация</span>
                     </div>
-                    <RichTextEditor userDetails={description} setUserDetails={setDescription} />
+                    <RichTextEditor userDetails={description != 'undefined' ? description : ''} setUserDetails={setDescription} />
                 </div>
                 <div className='eachProfileField'>
                     <div className='profileFieldName'>
